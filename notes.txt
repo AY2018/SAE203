@@ -1,0 +1,35 @@
+Things left to do 
+
+Mes Projets 
+// make the rows links
+- Onclick, hightlight 
+- Doubleclick = go to other page
+
+Projet Solo 
+// Add the modify part (make it like the traces with the code of the add project instead)
+
+
+
+// Database 
+Create different tables (don't forget the login)
+
+// Add PHP code
+
+// Create a Loader that only appears once per session
+
+// Don't forget the message option, the login, the 
+
+
+Chaque promotion de l'université est divisée en deux groupes (A et B), qui à leur tour sont divisés en 2 groupes chacun (1 et 2). 
+
+Chaque étudiant à accès à un compte où il peut voir tout ses projets (sytème de login). Chaque projet est lié à une des 5 compétence principale et répond à un certain nombre de compétences secondaires. 
+
+Chaque projet possède un titre, une compétence principale, une image, au moins une compétence secondaire et des traces que l'élève peut ajouter (soit des fichiers, soit un lien) et une moyenne (qui est calculé en faisant la moyenne des notes de chaque compétence secondaire liée au projet) et une description.
+
+Sur la page d'accueil, l'étudiant peut visualiser son dernier projet (et donc son titre, sa compétence, les compétences secondaires). Il peut aussi voir ses moyennes pour chaque compétence ainsi que son classement comparé à sa promotion. 
+
+Dans la page "Projets", l'étudiant peut visualiser tout ses projets (leur titre, la compétence de chaque projet, les compétences secondaires de chaque projet et sa note dans chacune, sa moyenne et son rang en se basant sur la moyenne du projet en question).
+
+Dans la page 'Ajouter', l'étudiant peut ajouter un projet et s'auto évaluer. 
+
+Dans la page 'Projet', l'étudiant peut observer son projet, la compétence, les compétences secondaires et leur note, l'image principale, la moyenne du projet et son classement, ainsi que la description du projet. Il peut aussi voir les traces du projet. 

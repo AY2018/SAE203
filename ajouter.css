@@ -1,0 +1,262 @@
+main {
+    background-color: #19162c;
+    position: relative;
+    top: 0;
+    left: 15%;
+    width: 85%;
+    height: fit-content !important;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.main_heading {
+    border-radius: 0 0 10px 10px;
+    background-color: #2a2540;
+    width: 90%;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main_heading ul {
+    display: flex;
+    list-style: none;
+    gap: 5px;
+}
+
+.main_heading ul li {
+    padding: 13px 20px;
+    display: flex;
+    align-items: center;
+}
+
+/* ADD SECTION */
+
+.addProjectArticle{
+    border-radius: 20px;
+    background-color: #2a2540;
+    width: 90%;
+    padding: 60px 80px;
+}
+
+.addProjectArticle form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.addProjectArticle form label, .addProjectArticle form h1{
+    font-size: 1.17rem;
+    font-weight: 400;
+}
+
+/* Title */
+.titre input{
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #19162c;
+    color: #bebac8;
+    font-size: 1rem;
+    border: none;
+}
+
+input, textarea, select{
+    margin-top: 10px;
+}
+
+/* Choose Competence */
+
+.competences_and_AC {
+    display: flex;
+    gap: 20px;
+}
+
+.competences{
+    min-width: 200px;
+}
+
+.competences select{
+    background-color: #19162c;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.mult-select-tag ul li{
+    color: black;
+}
+
+.mult-select-tag .item-container{
+    max-width: 25% !important;
+}
+
+.mult-select-tag .item-label{
+    max-width: 100% !important;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.mult-select-tag .body{
+    background-color: #19162c !important;
+}
+
+
+
+
+
+
+
+
+.restofForm{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+.traces{
+    display: flex;
+    flex-direction: column;
+    background-color: #3b3454;
+    padding: 20px;
+    height: fit-content;
+    border-radius: 20px;
+}
+.traces label{
+    display: flex;
+    gap: 5px;
+}
+
+.traces .fa-question{
+    color: white;
+    background-color: #222222;
+    border: 1px solid white;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: help;
+}
+
+.traces p{
+    font-size: 0.8rem;
+    background-color: #22222290;
+    color: white;
+    border-radius: 10px;
+    padding: 5px 10px;
+    text-transform: none;
+    transition: 0.2s ease;
+}
+
+
+
+
+
+/* Description & Evaluation*/
+
+
+.description textarea{
+    width: 70%;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #19162c;
+    color: #bebac8;
+    font-size: 1rem;
+}
+
+.descriptionAndEval{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.evaluation{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.evaluation .lesAC:first-of-type{
+    border-radius: 10px 10px 0 0;
+}
+
+.lesAC{
+    background-color: #222222;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 2px 2px 5px black;
+}
+
+.evaluation .lesAC:last-of-type{
+    border-radius: 0 0 10px 10px;
+}
+
+
+
+.lesAC select{
+    background-color: #3b3454;
+    color: white;
+    width: 20%;
+    font-size: 1.5rem;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.lesAC select:nth-child(1) {
+    width: 70%;
+    font-size: 0.9rem;
+    font-style: italic;
+    text-overflow: ellipsis;
+}
+
+
+/*Search bar*/
+
+.select2-container, .select2-results, .select2-container--open .select2-dropdown--below  {
+    color: white !important;
+    background-color: #19162c;
+    width: 70% !important;
+    border: none !important;
+}
+
+
+.select2-container--default .select2-selection--single .select2-selection__rendered, .select2-results__option--selectable,
+.select2-results,
+.select2-container--open .select2-dropdown--below{
+    width: 100% !important;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9rem;
+    font-style: italic;
+    color: white !important;
+    background-color: #222222;
+    border: none !important;
+}
+
+.submitBtn{
+    width: 33%;
+    letter-spacing: 6px;
+    font-weight: bold;
+    color: #2a2540;
+    padding: 13px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin: auto;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.submitBtn:hover{
+    filter: brightness(0.8);
+    transform: scale(0.95);
+}

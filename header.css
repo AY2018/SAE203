@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: #d3cdde;
+}
+
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #d3cdde;
+}
+
+img {
+    width: 100%;
+    object-fit: cover;
+}
+
+
+/* HEADER */
+
+
+header {
+    background-color: #161427;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 100px 30px;
+    padding-bottom: 0;
+}
+
+header .profile,
+header nav {
+    height: 33%;
+}
+
+header .profile a {
+    position: absolute;
+    right: 10px;
+    top: 50px;
+    font-size: 1.2rem;
+    animation: rotate 10s ease forwards infinite;
+}
+
+@keyframes rotate {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+header .profile img {
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+header .profile h1,
+header .profile h2 {
+    color: white;
+    text-align: center;
+}
+
+header hr {
+    width: 100%;
+    height: 0.2px;
+}
+
+header nav {
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+header nav ul li {
+    text-align: center;
+}
+
+header nav ul .active a {
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+}
+
+header .buttons {
+    display: flex;
+    gap: 5px;
+    width: 100%;
+}
+
+header .buttons a {
+    width: 50%;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    transition: 0.2s ease;
+}
+
+header .buttons a:hover {
+    filter: brightness(1.2);
+    background-color: #3b3454;
+}
+
+.changeImg {
+    background-color: #3b3454;
+    z-index: 99;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%, -10%);
+    padding: 40% 30px;
+    display: none;
+}
+
+.changeImg form {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+
+.changeImg form i {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.btnChangerProfile {
+    border: none;
+    background-color: #a68ff8;
+    border-radius: 5px;
+    width: 100%;
+    padding: 20px 0;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+
+.btnChangerProfile:hover {
+    transform: scale(0.98);
+}

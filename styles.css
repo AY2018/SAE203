@@ -1,0 +1,236 @@
+main{
+    background-color: #19162c;
+    position: relative;
+    top: 0;
+    left: 15%;
+    width: 85%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.main_heading{
+    border-radius: 0 0 10px 10px;
+    background-color: #2a2540;
+    width: 90%;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main_heading ul{
+    display: flex;
+    list-style: none;
+    gap: 5px;
+}
+
+.main_heading ul li{
+    padding: 13px 20px;
+    display: flex;
+    align-items: center;
+}
+/* LAST PROJECT */
+
+main .last_project{
+    background-color: #2a2540;
+    width: 90%;
+    height: 40%;
+    border-radius: 20px 20px 20px 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+main .last_project img{
+    border-radius: 0 0 20px 20px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    filter: blur(8px);
+    transition: 0.3s ease;
+}
+
+main .last_project img:hover{
+    filter: blur(0);
+}
+
+
+main .last_project_heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-radius: 20px 20px 20px 20px;
+    background-color: #2a2540;
+    padding: 20px;
+}
+
+main .last_project_heading a{
+    font-size: 0.9rem;
+    text-decoration: underline;
+    transition: 0,2s ease;
+}
+
+main .last_project_heading a i {
+    font-size: 0.9rem;
+    text-decoration: underline;
+    transition: 0, 2s ease;
+}
+
+main .last_project_heading a:hover{
+    color: white;
+    font-weight: bold;
+}
+
+
+main .last_project_footer{
+    background: rgb(0, 0, 0);
+    background: linear-gradient(-360deg, rgba(0, 0, 0, 1) 0%, transparent 100%);
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+main .last_project_footer h1{
+    color: #fd7c7e;
+}
+
+
+main .last_project_footer ul{
+    display: flex;
+    gap: 20px;
+    margin-top: 15px;
+}
+
+main .last_project_footer ul li{
+    width: 27%;
+    font-style: italic;
+    font-size: 0.6rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 5px 10px;
+    border-radius: 25px;
+    background-color: #e7a623;
+}
+
+/* OTHER SECTIONS */
+
+main .otherArticles {
+    width: 90%;
+    display: flex;
+    gap: 20px;
+    height: 40%;
+}
+
+main .otherArticles section{
+    display: flex;
+    flex-direction: column;
+    background-color: #2a2540;
+    border-radius: 20px 20px 20px 20px;
+    padding: 40px;
+    gap: 10px;
+}
+
+
+.otherArticles canvas {
+    width: 700px !important;
+    height: 250px !important;
+}
+
+@media (max-width: 1637px) {
+    .otherArticles canvas {
+    width: 500px !important;
+    height: 250px !important;
+}
+}
+
+.otherSections{
+    display: grid;
+    grid-template-columns: repeat(1fr, 2);
+    grid-template-rows: repeat(1fr, 2);;
+    width: 40%;
+    height: 100%;
+    gap: 20px;
+}
+
+.section1{
+    width: 60%;
+    height: 100%;
+    gap: 20px !important;
+}
+
+
+
+.section3{
+    grid-row: 2 / span 1;
+    grid-column: 1 / span 1;
+    padding: 0 !important;
+}
+
+.section4 {
+    grid-row: 2 / span 1;
+    grid-column: 2 / span 1;
+    padding: 0 !important;
+}
+
+
+.section3 a, .section4 a{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    transition: 0.2s ease;
+}
+
+.section3 a:hover, .section4 a:hover{
+    filter: brightness(1.2);
+    background-color: #3b3454;
+}
+
+
+
+/* Evaluation */
+.section2 {
+    grid-row: 1 / span 1;
+    grid-column: 1 / span 2;
+    padding: 20px 20px 0 20px!important;
+}
+
+.section2 h1 span{
+    font-size: 0.8rem;
+    font-style: italic;
+}
+
+.classement_competences{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.competence{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    color: white;
+    width: 80%;
+}
+
+.competence:nth-child(odd){
+    background-color: #3b3454;
+}
+
+
